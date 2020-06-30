@@ -1,0 +1,219 @@
+.main-logo {
+  margin-top: 10px;
+}
+.logo_h {
+  width: 80px;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.logo_h:hover {
+  border-radius: 100%;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.logo2 {
+  width: 70%;
+}
+
+.lk {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: blue;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+.carousel-inner .wall {
+  max-height: 900px !important;
+}
+
+.imgmove {
+  width: 100% !important;
+  height: auto;
+}
+
+.imgmove:hover {
+  transform: scale(1.1);
+}
+
+.merch {
+  margin-top: 30px;
+}
+
+.prev-merch,
+.next-merch {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.next-merch:after {
+  content: ">";
+  font-size: 55px;
+  color: red;
+}
+
+.prev-merch:after {
+  content: "<";
+  font-size: 55px;
+  color: red;
+}
+
+.merch {
+  min-height: 700px;
+}
+
+.footer-form {
+  padding-bottom: 20px;
+}
+
+.top-menu li {
+  width: 150px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-menu input {
+  margin-top: 10px;
+  width: 140px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 18px;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.but1 {
+  background-color: whitesmoke;
+  color: black;
+}
+
+input:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.list {
+  display: block;
+  width: 450px;
+  /* border-right: 2px solid #ccc; */
+}
+
+.form-auth__button {
+  width: 400px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 18px;
+}
+
+.form-auth__button:hover {
+  width: 400px;
+  height: 50px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.form-control {
+  width: 400px;
+}
+
+footer {
+  /* position: fixed; Фиксированное положение */
+  margin-bottom: -5px;
+  left: 0;
+  bottom: 0; /* Левый нижний угол */
+  padding: 10px; /* Поля вокруг текста */
+  background: #2f4f4f; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  width: 100%; /* Ширина слоя */
+}
+
+/* .lev input {
+  padding-right: 200px;
+  margin-top: 10px;
+  width: 240px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 18px;
+  margin-left: 50px;
+} */
+
+@media screen and (max-width: 990px) {
+  .logo_name {
+    display: none;
+    font-size: 30px !important;
+  }
+}
+
+.editbut {
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 55px;
+}
+
+.editbut input {
+  margin-top: 10px;
+  width: 240px;
+  height: 40px;
+  background-color: black;
+  color: whitesmoke;
+
+  border-radius: 18px;
+}
+
+.editbut input:hover {
+  background-color: white;
+  color: black;
+}
+
+@-webkit-keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}

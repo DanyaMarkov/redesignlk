@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.3" />
+
+    <title>Марков Даня</title>
+
+    <script src="script.js" language="javascript"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/media-css.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <img
+          src="https://old.mospolytech.ru/img_new/top_bn/top_sh.png"
+          alt="Logotype"
+          class="logo"
+        />
+      </div>
+
+      <div class="form">
+        <form
+          name="form_auth"
+          method="post"
+          target="_top"
+          action="/index.php?login=yes"
+          class="form-auth"
+        >
+          <div class="form-group">
+            <h1 class="hh1">Авторизация</h1>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              name="USER_LOGIN"
+              class="form-control"
+              id="login"
+              placeholder="Логин"
+              value=""
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="password"
+              name="USER_PASSWORD"
+              class="form-control"
+              id="password"
+              placeholder="Пароль"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="button"
+              name="Login"
+              value="Войти"
+              class="form-auth__button"
+              onclick="location.href='main.html'"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="submit"
+              name="Login"
+              value="Забыли пароль?"
+              class="form-auth__button"
+            />
+          </div>
+        </form>
+      </div>
+
+      <div class="top-menu">
+        <ul class="topmenu">
+          <li>
+            <form action="script.js" id="but3">
+              <input OnClick="c()" type="button" value="Нет пароля?" />
+            </form>
+          </li>
+
+          <li>
+            <form action="script.js" id="but1">
+              <input OnClick="a()" type="button" value="Учащимся" />
+            </form>
+          </li>
+
+          <li>
+            <form action="script.js" id="but2">
+              <input OnClick="b()" type="button" value="Сотрудникам" />
+            </form>
+          </li>
+        </ul>
+        <div class="list">
+          <p id="list"></p>
+        </div>
+      </div>
+
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>

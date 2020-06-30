@@ -1,0 +1,170 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Rubik&display=swap');
+
+body {
+    font-family: 'Fira Sans Condensed',;
+}
+
+
+@media (max-width: 4000px) {
+
+    .main {
+        display: grid;
+        grid-template-rows: 170px auto auto auto ;
+        grid-template-columns: auto auto auto auto ;
+    }
+
+    .header {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .form {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        /* background-image: url(https://image.freepik.com/free-vector/_33767-449.jpg); */
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-menu {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        text-align: justify;
+        justify-content: center;
+    }
+
+
+    .header {
+        background-image: url(https://old.mospolytech.ru/img_new/top_bn/01.jpg);
+        background-image: url(https://sun9-53.userapi.com/c846217/v846217847/10703c/e84Yf6Dov-s.jpg);
+        background-size: cover;
+        /* height: 200px; */
+        /* max-height: 100%; */
+        vertical-align: middle;
+        background-position: center center;
+        padding-top: 10px;
+    }
+
+    ul, li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu__item {
+        margin: 0 57px;
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+
+
+    hh1 {
+        text-align: center;
+    }
+
+    .logo {
+        display: block;
+        width: 30%;
+        margin: auto;
+    }
+
+    .form-group {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+    }
+
+    .form-group input {
+        border-radius: 13px;
+    }
+    
+        /* border-right: 2px solid #ccc; */
+}
+
+.form-auth__button {
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+}
+
+    .form-auth__button:hover {
+        width: 400px;
+        height: 50px;
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .form-control {
+        width: 400px;
+        
+    }
+
+
+
+
+
+.top-menu li {
+    
+    width: 150px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.top-menu input {
+    margin-top: 10px;
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+}
+
+    .but1 {
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    input:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
+
+
+    .list {
+        display: block;
+        width: 450px;
+        /* border-right: 2px solid #ccc; */
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
